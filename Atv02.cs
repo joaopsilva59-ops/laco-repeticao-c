@@ -17,6 +17,9 @@ conta quantas compras foram realizadas. Modifique o código para que ele também
 ao final, o valor médio das compras registradas, mantendo o uso do do/while.
 No cálculo da média, devem ser considerados apenas os valores válidos registrados.
 
+Observação: Vestigios de uso de IA, atividade zerada, 
+ou código copiado de terceiros sem a devida citação, serão penalizados.
+
 */
 public static class Atv02
 {

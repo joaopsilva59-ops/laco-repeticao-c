@@ -17,10 +17,16 @@ x para multiplicação
 
 Sua tarefa é alterar o programa para que ele deixe de trabalhar com opções numéricas 
 e passe a reconhecer diretamente os símbolos das operações. Para isso, 
-será necessário ajustar toda a lógica necessária para que a calculadora continue funcionando corretamente.
+será necessário ajustar toda a lógica necessária para que a calculadora continue funcionando 
+corretamente.
 
 O programa deverá solicitar a operação desejada, pedir os dois valores, 
-realizar o cálculo correspondente, exibir o resultado, tratar tentativas de divisão por zero, informar quando uma operação inválida for digitada e permitir novos cálculos enquanto o usuário desejar continuar.
+realizar o cálculo correspondente, exibir o resultado, tratar tentativas de divisão por zero, 
+informar quando uma operação inválida for digitada e permitir novos cálculos enquanto o usuário 
+desejar continuar.
+
+Observação: Vestigios de uso de IA, atividade zerada, 
+ou código copiado de terceiros sem a devida citação, serão penalizados.
 */
 public static class Atv01
 {

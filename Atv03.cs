@@ -9,14 +9,12 @@ Ao final, o programa deve mostrar:
 
 Regras da atividade
 - o programa deve usar while para repetir o cadastro das placas;
-- o programa deve usar if para verificar se a placa informada está vazia;
-- se a placa estiver vazia, o sistema deve informar que o valor é inválido e não deve contar esse registro;
 - após cada tentativa de cadastro, o programa deve perguntar se o operador deseja continuar;
 - ao final, exibir a quantidade de veículos registrados com sucesso.
 
-Desafio extra
-Modifique o programa para também informar:
--quantas tentativas inválidas aconteceram.
+Observação: Vestigios de uso de IA, atividade zerada, 
+ou código copiado de terceiros sem a devida citação, serão penalizados.
+
 */
 public static class Atv03
 {

@@ -14,3 +14,25 @@ Observação: Vestigios de uso de IA, atividade zerada,
 ou código copiado de terceiros sem a devida citação, serão penalizados.
 
 */
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+
+public static class Atv04
+
+{
+    public static void Executar()
+    {
+        int numero;
+        int contador = 0;
+
+        Console.Write("Digite o valor do produto: ");
+        numero = int.Parse(Console.ReadLine()!);
+
+        while (contador <= 10)
+        {
+            Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+            contador++;
+        }
+    }
+
+}

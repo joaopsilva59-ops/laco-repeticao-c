@@ -19,7 +19,26 @@ ou código copiado de terceiros sem a devida citação, serão penalizados.
 public static class Atv03
 {
     public static void Executar()
-    {
 
+    {
+        string placa;
+        string opcao;
+        int cont = 0;
+
+        Console.WriteLine("Você deseja iniciar a contagem: ");
+        opcao = Console.ReadLine()!;
+
+        while (opcao == "s") //opcao != n
+        {
+            Console.WriteLine("Placa");
+            placa = Console.ReadLine()!;
+
+            cont = cont + 1; // cont++
+
+            Console.WriteLine("Deseja continuar placa");
+            opcao = Console.ReadLine()!;
+        }
+        Console.WriteLine("Fim de progr");
     }
+
 }

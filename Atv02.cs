@@ -12,12 +12,12 @@ Ao final, o programa mostra:
 - o valor total arrecadado.
 
 ===========DESAFIO===========
-O programa da cantina já registra o valor das compras, soma o total arrecadado e 
-conta quantas compras foram realizadas. Modifique o código para que ele também exiba, 
+O programa da cantina já registra o valor das compras, soma o total arrecadado e
+conta quantas compras foram realizadas. Modifique o código para que ele também exiba,
 ao final, o valor médio das compras registradas, mantendo o uso do do/while.
 No cálculo da média, devem ser considerados apenas os valores válidos registrados.
 
-Observação: Vestigios de uso de IA, atividade zerada, 
+Observação: Vestigios de uso de IA, atividade zerada,
 ou código copiado de terceiros sem a devida citação, serão penalizados.
 
 */
@@ -53,6 +53,7 @@ public static class Atv02
 
         Console.WriteLine($"Quantidade de compras registradas: {quantidadeCompras}");
         Console.WriteLine($"Total arrecadado: R$ {totalArrecadado}");
+        Console.WriteLine($"media: R$ {totalArrecadado / quantidadeCompras}");
     }
 }
 
